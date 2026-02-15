@@ -31,28 +31,6 @@ Frontend: HTML + CSS
 
 Validation: validators library
 
-📁 Project Structure
-url-shortener/
-│
-├── app/
-│   ├── __init__.py
-│   ├── models.py
-│   ├── routes.py
-│   ├── utils.py
-│   │
-│   ├── templates/
-│   │   ├── base.html
-│   │   ├── home.html
-│   │   └── history.html
-│   │
-│   └── static/
-│       └── style.css
-│
-├── config.py
-├── run.py
-├── requirements.txt
-└── .gitignore
-
 ⚙️ How It Works
 
 User enters a long URL.
@@ -167,3 +145,4 @@ Clean project structuring
 🏁 Author
 
 Swastik Dasgupta
+
