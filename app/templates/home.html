@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+
+<form method="POST">
+    <input type="text" name="url" placeholder="Enter URL" required>
+    <button type="submit">Shorten</button>
+</form>
+
+{% if short_url %}
+    <p><strong>Short URL:</strong></p>
+    <input type="text" value="{{ short_url }}" readonly>
+{% endif %}
+
+<br>
+<a href="{{ url_for('main.history') }}">View History</a>
+
+{% endblock %}
